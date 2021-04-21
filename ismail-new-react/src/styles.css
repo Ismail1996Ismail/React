@@ -1,0 +1,105 @@
+.App {
+    font-family: 'Gilroy';
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    width: 770px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    margin: auto;
+}
+.header .logo {
+    width: 170px;
+}
+.header .menu {
+    font-size: 24px;
+    color: #003399;
+    font-weight: 500;
+}
+.header .menu ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 325px;
+    margin: 0;
+    margin-top: 10px;
+}
+.header .menu a {
+    text-decoration: none;
+}
+.main {
+    padding: 30px 0;
+}
+.main .counter {
+    height: 340px;
+    width: 185px;
+    font-size: 288px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    color: #F27C0F;
+    margin: auto;
+}
+.main .buttons {
+    width: 710px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.main .buttons button {
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .buttons .Enlarge {
+    color: #fff;
+    background-color: #003399;
+    border-radius: 4px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.main .buttons .Reduce {
+    color: #fff;
+    background-color: #F27C0F;
+    border-radius: 4px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.main .buttons .Reset {
+    color: #000;
+    background-color: #E5E5E5;
+    border-radius: 4px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.footer {
+    width: 770px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26vh;
+    font-size: 16px;
+    font-weight: 500;
+    color: #00000080;
+
+}
+.footer .footerMenu ul {
+    width: 470px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer .footerMenu img {
+    margin-top: -4px;
+}
+.footer .footerMenu ul a {
+    text-decoration: none;
+    color: #00000080;
+}
